@@ -1,0 +1,31 @@
+body{
+    background-color: darkblue;
+    background-image:linear-gradient(to bottom,darkblue,rgb(177, 177, 198));
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.page-header{
+    background-image:linear-gradient(to right,pink,purple) ;
+    border-radius: 16px;
+    text-align: center;
+    color: blueviolet;
+}
+.fact-card{
+    background-color:midnightblue ;
+    border-radius: 14px;
+    color: white;
+
+}
+.star{
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: twinkle 2s infinite alternate;
+
+}
+@keyframes twinkle {
+    from{background-color: yellow;}
+    to{background-color: white;}
+    
+}

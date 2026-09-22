@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Form</title>
+</head>
+<body>
+   <h4>Docters Appointment</h4> 
+   <form>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label>Enter Your Name</label><br>
+        <input type="text"><br>
+        <label>Patient ID</label><br>
+        <input type="password"><br>
+        <label>DOB</label><br>
+        <input type="date"><br>
+
+    </fieldset>
+    <fieldset>
+        <legend>Your Visit</legend>
+        <label>Choose Your Doctor</label><br>
+        <select id="Doctor">
+            <option value="">Select Your Doctor</option>
+        <option value="dr-prasad">Dr.Prasad(General)</option>
+        <option value="dr-lee">Dr.Lee(Teeth)</option>
+        <option value="dr-prasad">Dr.Ghee(Roti specialist)</option>
+
+        </select><br>
+        <label>Why are you visiting?</label><br>
+        <input type="radio" name="reason" value="fever">Fever <br>
+        <input type="radio" name="reason" value="sore-throat">Sore Throat <br>
+        <input type="radio" name="reason" value="Roti-problems">Roti problems <br>
+
+        <label>Any notes for the Dr?</label><br>
+        <textarea id="notes" rows="3" cols="35" placeholder="e.g I have explosive dioareah for 3 days"></textarea><br>
+        <input type="submit">
+    </fieldset>
+   </form>
+</body>
+</html>
